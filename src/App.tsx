@@ -4,23 +4,17 @@ import { SearchBar } from "@tarzi/jarvis"
 
 function App() {
   return (
-    <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
-      <div className="bg-white dark:bg-black flex justify-center items-center">
-        <div className="h-screen w-7/12 dark:bg-black bg-white dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex-col pt-6 justify-center">
-          <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)]"></div>
+    <div className="flex items-center justify-center w-screen h-screen gap-8">
+      <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
 
-          <div className="flex justify-center items-center gap-8 py-12 mb-8">
-            <h1 className="font-LilitaOne text-4xl sm:text-8xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-red-200 to-red-500">
-              Jarvis
-            </h1>
-            <ThemeToggle />
-          </div>
-          <div className="flex justify-center">
-            <SearchBar />
-          </div>
+        <div className="h-screen w-screen dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex pt-56 justify-center gap-8">
+          <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+          <SearchBar />
+          <ThemeToggle />
         </div>
-      </div>
-    </ThemeProvider >
+
+      </ThemeProvider >
+    </div>
   )
 }
 

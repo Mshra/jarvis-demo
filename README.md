@@ -1,6 +1,3 @@
-# Jarvis
+# Jarvis-Demo
 
-## index
-- Introduction & purpose
-- features
-- how does it work?
+Demo for [Jarvis](https://github.com/Mshra/Jarvis).
