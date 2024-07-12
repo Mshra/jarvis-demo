@@ -2,7 +2,6 @@ import { ThemeProvider } from "./components/theme-provider";
 import { ThemeToggle } from "./components/mode-toggle";
 import { SearchBar } from "@tarzi/jarvis";
 import { Github } from "lucide-react";
-import { Button } from "./components/ui/moving-border";
 
 const NavBar = () => {
   return (
