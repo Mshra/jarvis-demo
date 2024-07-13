@@ -6,7 +6,7 @@ import { Github } from "lucide-react";
 const NavBar = () => {
   return (
     <div className="flex justify-center">
-      <ul className="flex items-center justify-evenly gap-4 p-4 mt-40 border border-black rounded-full dark:border-white bg-white dark:bg-black w-11/12 md:w-7/12 lg:w-5/12">
+      <ul className="shadow shadow-black dark:shadow-white flex items-center justify-evenly gap-4 p-4 mt-40 border border-black rounded-full dark:border-white bg-white dark:bg-black w-11/12 md:w-7/12 lg:w-5/12">
         <li>
           <a href="https://github.com/Mshra/Jarvis" target="_blank">
             <Github />
